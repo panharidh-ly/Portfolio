@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Image/giphy.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+
+}
+
+
+header{
+    background-color: black;
+    padding: 15px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;  
+}
+.menu li {
+    margin-left: 5%;
+    margin-right:5%;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+
+}
+header a:hover{
+    color:grey;
+}
+
+main h1{
+    font-size: 3cm;
+    color: white;
+    display : flex;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+.paragraphe {
+    font-size: 1cm;
+    color: white;
+    display : flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.paragraphe1 {
+    font-size: 1cm;
+    color: white;
+    display : flex;
+    justify-content: center;
+    margin-bottom:5%;
+}
+
+footer{
+    position:fixed;
+    background-color: black;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+
+    img{
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
+}
